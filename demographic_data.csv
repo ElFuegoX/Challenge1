@@ -1,4 +1,4 @@
-Location,Year,PopTotal,PopDensity,PopSexRatio,MedianAgePop,CBR,TFR,LEx,IMR,Q5,NetMigrations
+Country,Year,PopTotal,PopDensity,PopSexRatio,MedianAgePop,CBR,TFR,LEx,IMR,Q5,NetMigrations
 African Union: Western Africa,1950,69779.21,13.8656,99.8955,18.1701,47.151,6.4706,35.174,165.5092,351.5699,21.161
 African Union: Western Africa,1951,71128.839,14.1338,99.7521,18.2017,47.314,6.4784,35.4407,164.4624,347.845,10.144
 African Union: Western Africa,1952,72510.548,14.4084,99.6222,18.2244,47.382,6.4753,35.68,163.404,344.3043,-10.037
