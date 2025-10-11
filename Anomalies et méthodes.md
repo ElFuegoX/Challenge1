@@ -82,14 +82,14 @@
 
 ### Insights
 - Phrases simples pour le grand public, sans chiffres, anomalies, ni recommandations.
-- Écrits dans `insights.md` pour chaque variable et croisement, sans inclure `{feature}_Growth` pour respecter les instructions.
-- Ordre des insights aligné sur les sections : démographie, social, FDI, GDP, croisements.
+- Écrits dans `analyses.md` pour chaque variable et croisement, sans inclure `{feature}_Growth` pour respecter les instructions.
+- Ordre des analyses aligné sur les sections : démographie, social, FDI, GDP, croisements.
 
 ### Croisements
 - Fusions sur `Year` et `Country` avec `how='inner'` pour données cohérentes.
 - Axes secondaires pour gérer les grands écarts (ex. Bénin vs Afrique subsaharienne).
 - Gestion des données manquantes dans les croisements par suppression des lignes incomplètes après fusion, assurant des calculs fiables.
-- Ordre des croisements dans `insights.md` : `FDI_Per_Person`, `GDP_Per_Density`, `HDI_Per_TFR`, `LEx_et_GDP_Constant_PerCapita`, `PopSexRatio_et_GDI`, `GII_et_IMR`.
+- Ordre des croisements dans `analyses.md` : `FDI_Per_Person`, `GDP_Per_Density`, `HDI_Per_TFR`, `LEx_et_GDP_Constant_PerCapita`, `PopSexRatio_et_GDI`, `GII_et_IMR`.
 
 ### Optimisation mémoire
 - DataFrames supprimés après chaque analyse (`del df`).
